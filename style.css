@@ -19,7 +19,7 @@ body{
     white-space: nowrap;
     overflow: hidden;
     width: 30em;
-    animation: load 2s steps(4,end) infinite;
+    animation: load 2s steps(3,end) infinite;
 }
 
 p{
@@ -32,6 +32,7 @@ p{
   width: 30em;
   animation: type 4s steps(60, end); 
 }
+
 
 
 @keyframes type {
@@ -47,5 +48,5 @@ p{
 
 @font-face {
   font-family: ultrafont;
-  src: url(src/fonts/VCR_OSD_MONO_1.001.ttf);
+  src: url(src/VCR_OSD_MONO_1.001.ttf);
 }

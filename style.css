@@ -7,12 +7,12 @@ Retrieved 2026-09-15, License - CC BY-SA 3.0
 body{
     font-family: "ultrafont";
     background-color: black;
-    color: green;
+    color: white;
     
 }
 
 .loading{
-    color: green; 
+    color: white; 
     font-family: "ultrafont";
     font-size: 20px;
     margin: 10px 0 0 10px;
@@ -23,7 +23,7 @@ body{
 }
 
 p{
-  color: green; 
+  color: white; 
   font-family: "ultrafont";
   font-size: 20px;
   margin: 10px 0 0 10px;

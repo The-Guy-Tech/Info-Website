@@ -1,0 +1,51 @@
+/*
+Source - https://stackoverflow.com/a/33486479
+Posted by Sohrab Hejazi, modified by community. See post 'Timeline' for change history
+Retrieved 2026-09-15, License - CC BY-SA 3.0
+*/
+
+body{
+    font-family: "ultrafont";
+    background-color: black;
+    color: green;
+    
+}
+
+.loading{
+    color: green; 
+    font-family: "ultrafont";
+    font-size: 20px;
+    margin: 10px 0 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 30em;
+    animation: load 2s steps(4,end) infinite;
+}
+
+p{
+  color: green; 
+  font-family: "ultrafont";
+  font-size: 20px;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
+  animation: type 4s steps(60, end); 
+}
+
+
+@keyframes type {
+  from { width: 0; }
+  to { width: 60ch; } 
+}
+
+@keyframes load {
+  from { width: 0; }
+  to { width: 4ch; } 
+}
+
+
+@font-face {
+  font-family: ultrafont;
+  src: url(src/fonts/VCR_OSD_MONO_1.001.ttf);
+}

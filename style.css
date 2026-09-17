@@ -27,8 +27,8 @@ h1{
     margin: 10px 0 0 10px;
     white-space: nowrap;
     overflow: hidden;
-    width: 0em; 
-    animation: load 2s steps(4,end) infinite 2s;
+    width: 0em;
+    animation: load 2s steps(3,end) infinite 2s;
 }
 
 p{
@@ -43,12 +43,13 @@ p{
 }
 
 
+
 @keyframes type {
   to { width: 60ch; } 
 }
 
 @keyframes load {
-  from { width: 0; }
+  from { width: 1ch; }
   to { width: 4ch; } 
 }
 
